@@ -1,0 +1,26 @@
+.langSwitcher {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.langSwitcher button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.langSwitch button:last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (min-width: 980px) {
+  .langSwitcher {
+    position: absolute;
+    text-align: right;
+    right: 50%;
+    margin-left: -110px;
+    left: 50%;
+    width: 220px;
+    top: 1em;
+  }
+}
